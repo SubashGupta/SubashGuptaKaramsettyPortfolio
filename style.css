@@ -1,0 +1,19 @@
+.footStyle{
+    background-color: cyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    text-align: center;
+    position:sticky;
+}
+
+body{
+    background-image: url("backgroundImage.jpg");
+}
+
+.myContainer{
+    display: flex;
+}
+.images{
+    padding-right: 10px;
+}
