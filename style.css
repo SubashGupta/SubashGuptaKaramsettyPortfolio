@@ -1,6 +1,10 @@
 
 body{
-    background-image: url("backgroundImage.jpg");  
+    background-image: url("backgroundImage.jpg"); 
+    background-color: #e7ebef;
+}
+h1, h3{
+    text-align: center;
 }
 .navbar{
     background-color:rgb(47, 245, 12);
@@ -18,7 +22,7 @@ body{
     text-decoration: none; /*This will remove the underline for the link*/
 }
 .intro{
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
 }
 .mypic{
@@ -29,7 +33,7 @@ body{
 }
 .mystory
 {
-    width: 33%
+    width: 66%
 }
 .myContainer{
     display: flex;
@@ -47,6 +51,7 @@ body{
     font-style: italic;
     text-align: center;
     position:sticky;
+    padding: 10px 0px;
 }
 
 .footimages{
