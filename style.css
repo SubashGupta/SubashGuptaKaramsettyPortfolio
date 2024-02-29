@@ -3,12 +3,13 @@ body{
     background-image: url("backgroundImage.jpg"); 
     background-color: #e7ebef;
 }
-h1, h3{
+.headings{
     text-align: center;
 }
 .navbar{
     background-color:rgb(47, 245, 12);
     font-style: italic;
+    padding: 15px;
 }
 .navbar a:hover {
     background: white;

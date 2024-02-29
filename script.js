@@ -6,14 +6,22 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     }
 
-    function navToSkills(event) {
+    function navTo(event) {
         event.preventDefault();
-        history.pushState({}, null, '#skills');
-        scrollings('skills');
+        history.pushState({}, null, '#'+event);
+        scrollings(event);
     }
 
-    var skillsLink = document.getElementById("skills");
-    if (skillsLink) {
-        skillsLink.addEventListener('click', navToSkills);
+    var idname = document.getElementById("skills");
+    if (idname) {
+        idname.addEventListener('click', navTo(idname));
+    }
+    var idname = document.getElementById("projects");
+    if (idname) {
+        idname.addEventListener('click', navTo(idname));
+    }
+    var idname = document.getElementById("experience");
+    if (idname) {
+        idname.addEventListener('click', navTo(idname));
     }
 });
