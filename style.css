@@ -22,7 +22,7 @@ body{
     padding: 0px 5px;
 }
 .navbar a{
-    text-decoration: none; /*This will remove the underline for the link*/
+    text-decoration: none; /*This will remove the underline for the link in the a tags only for the navbar*/
 }
 .intro{
     font-size: 20px;
