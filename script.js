@@ -1,27 +1,38 @@
-document.addEventListener("DOMContentLoaded", function(){
-    function scrollings(idvalue){
+document.addEventListener("DOMContentLoaded", function () {
+    function scrollings(idvalue) {
         const element = document.getElementById(idvalue);
-        if (element){
-            element.scrollIntoView({ behavior: "smooth", block: "start" });
+        if (element) {
+            element.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+            });
         }
     }
 
     function navTo(event) {
         event.preventDefault();
-        history.pushState({}, null, '#'+event);
-        scrollings(event);
+        const targetId = event.target.getAttribute("href").substring(1);
+        history.pushState({}, null, '#' + targetId);
+        scrollings(targetId);
     }
 
-    var idname = document.getElementById("skills");
-    if (idname) {
-        idname.addEventListener('click', navTo(idname));
+    var skillsLink = document.querySelector('a[href="#skills"]');
+    if (skillsLink) {
+        skillsLink.addEventListener('click', navTo);
     }
-    var idname = document.getElementById("projects");
-    if (idname) {
-        idname.addEventListener('click', navTo(idname));
+
+
+    var projectsLink = document.querySelector('a[href="#projects"]');
+    if (projectsLink) {
+         projectsLink.addEventListener('click', navTo);
     }
-    var idname = document.getElementById("experience");
-    if (idname) {
-        idname.addEventListener('click', navTo(idname));
+
+    var experienceLink = document.querySelector('a[href="#experience"]');
+    if (experienceLink) {
+        experienceLink.addEventListener('click', navTo);
+    }
+    var experienceLink = document.querySelector('a[href="#contacts"]');
+    if (experienceLink) {
+        experienceLink.addEventListener('click', navTo);
     }
 });

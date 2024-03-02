@@ -5,9 +5,11 @@ body{
 }
 .headings{
     text-align: center;
+    animation: forwards;
 }
+
 .navbar{
-    background-color:rgb(47, 245, 12);
+    background-color:rgb(143, 181, 31);
     font-style: italic;
     padding: 15px;
 }
@@ -28,13 +30,13 @@ body{
 }
 .mypic{
     width: 33%;
-    height: 100%;
     padding-right: 10px;
     object-fit: contain;
 }
 .mystory
 {
-    width: 66%
+    width: 66%;
+    padding-left: 20px;
 }
 .myContainer{
     display: flex;
@@ -60,4 +62,31 @@ body{
     height:20px;
     margin-right: 10px;
     text-align: center;    
+}
+
+section, .sections{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section:nth-child(odd) {
+    background-color: bisque;
+}
+section:nth-child(even){
+    background-color: azure;
+
+}
+
+.sections:nth-child(odd){
+    background-color: rgb(227, 208, 36);
+}
+.sections:nth-child(even){
+    background-color: rgb(4, 11, 136);
+    color: white;
+}
+
+h4 a{
+color: #e4A
 }
