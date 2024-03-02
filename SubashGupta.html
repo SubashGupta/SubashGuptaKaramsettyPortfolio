@@ -5,30 +5,57 @@
       rel="stylesheet"
       href="https://fontawesome.com/icons/linkedin?f=brands&s=solid"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One"
+    />
     <script src="script.js" defer></script>
   </head>
   <body>
     <header>
-      <title>Subash Gupta Karamsetty</title>
+      <title>KSG's Portfolio</title>
     </header>
     <main>
-      <div class="navbar">
-        <nav>
-          <a id="abouts" href="#abouts"> Professional Portfolio</a>
-          <a class="navleft" href="#contacts"> Contacts</a>
-          <a class="navleft" href="#projects"> Projects</a>
-          <a class="navleft" href="#experience"> Experience</a>
-          <a class="navleft" href="#skills"> Skills</a>
-        </nav>
-      </div>
-      <h1 class="headings">Hey There, This is Subash Gupta Karamsetty</h1>
-      <h3 class="headings">
-        Software Engineer, Python Developer, Full Stack Developer
-      </h3>
+      <nav class="navbar">
+        <a class="blink"> Subash Gupta Karamsetty</a>
+        <a class="navleft" href="#contacts"> Contacts </a>
+        <a class="navleft" href="#projects"> Projects </a>
+        <a class="navleft" href="#experience"> Experience </a>
+        <a class="navleft" href="#skills"> Skills </a>
+        <a class="navleft" href="#abouts"> About Me </a>
+        <a class="navleft" href="#top"> Home </a>
+      </nav>
+      <section class="heads">
+        <h1 id="top">Hey There, This is Subash Gupta Karamsetty</h1>
+        <h2>
+          <marquee scrollamount="6" width="90%">
+            Software Engineer, Python Developer, Full Stack Developer
+          </marquee>
+        </h2>
+        <h2>Welcome to my Portfolio</h2>
+      </section>
       <section id="abouts">
         <div class="myContainer">
           <div class="mypic">
-            <img src="images/backgroundImage.jpg" />
+            <img class="imgg" src="images/MyPic.jpeg" />
+            <div>
+              <h4>Subash Gupta Karamsetty</h4>
+              <p>karamsettysubashgupta@gmail.com</p>
+              <a
+                href="https://www.linkedin.com/in/subash-gupta-karamsetty-8364b7167/"
+                target="_blank"
+                ><img
+                  class="footimages"
+                  src="images/linkedin.svg"
+                  alt="LinkedIn Logo"
+              /></a>
+              <a href="https://github.com/SubashGupta" target="_blank"
+                ><img
+                  class="footimages"
+                  src="images/github.svg"
+                  alt="GitHub Logo"
+              /></a>
+            </div>
           </div>
           <div class="mystory">
             <h2>Who am I?</h2>
@@ -101,7 +128,7 @@
       </section>
       <section id="experience">
         <h2>Here is my Experience</h2>
-        <div>
+        <div class="sections">
           <h2>Graduate Teaching Assistant</h2>
           <h4>
             Florida Atlantic University, Boca Raton, Florida, USA (January 2023
@@ -128,7 +155,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="sections">
           <h2>Software Engineer</h2>
           <h4>
             Tata Consultancy Services, Hyderabad, Telangana, India (September

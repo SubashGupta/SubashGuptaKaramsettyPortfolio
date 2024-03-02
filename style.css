@@ -1,25 +1,62 @@
 
 body{
-    background-image: url("backgroundImage.jpg"); 
-    background-color: #e7ebef;
-}
-.headings{
-    text-align: center;
-    animation: forwards;
+
+    background-image: url('/images/bgpic.jpeg');
+    font-family: 'Fauna One', serif;
+    background-size: 100%;
 }
 
-.navbar{
-    background-color:rgb(143, 181, 31);
+.heads{
+    border-top-width: 10px;
+    padding-top: 0px;
+    margin-top: 60px;
+    position: relative;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.blink {
+    animation: blinker 5s linear infinite;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.navbar {
+
     font-style: italic;
-    padding: 15px;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+    right:0%;
+    left:0%;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar appears above other elements */
+    backdrop-filter: blur(4px);
+    font-weight: bold;
+    color:blanchedalmond;
 }
 .navbar a:hover {
     background: white;
     color: black;
+    transition: all 0.1s ease;
+    border-radius: 50%;
+    opacity: 50%;
   }
 .navleft{
     float: right;
-    padding: 0px 5px;
+    padding: 0px 20px;
 }
 .navbar a{
     text-decoration: none; /*This will remove the underline for the link in the a tags only for the navbar*/
@@ -30,8 +67,13 @@ body{
 }
 .mypic{
     width: 33%;
-    padding-right: 10px;
     object-fit: contain;
+}
+.imgg{
+    height: 400px;
+    width: 90%;
+    border-radius: 8px 8px;
+    object-fit: cover;
 }
 .mystory
 {
@@ -40,6 +82,9 @@ body{
 }
 .myContainer{
     display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
 }
 
 .myContainer1{
@@ -48,7 +93,6 @@ body{
 }
 
 .footStyle{
-    background-color: cyan;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     font-style: italic;
@@ -69,24 +113,28 @@ section, .sections{
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+    
 }
 
 section:nth-child(odd) {
-    background-color: bisque;
+    background-color: rgba(206,203,203,0.5);
+    backdrop-filter: blur(18px);
 }
 section:nth-child(even){
-    background-color: azure;
+    background-color: rgba(206,203,203,0.5);
+    backdrop-filter: blur(18px);
 
 }
 
 .sections:nth-child(odd){
-    background-color: rgb(227, 208, 36);
+    background-color: rgba(206,203,203,0.5);
+    backdrop-filter: blur(4px);
 }
 .sections:nth-child(even){
-    background-color: rgb(4, 11, 136);
-    color: white;
+    background-color: rgba(206,203,203,0.5);
+    backdrop-filter: blur(4px);
 }
 
 h4 a{
-color: #e4A
+color: rgb(2, 17, 20)
 }
