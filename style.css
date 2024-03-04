@@ -1,7 +1,7 @@
 
 body{
 
-    background-image: url('/images/bgpic.jpeg');
+    background-image: url('/images/bgpic1.jpeg');
     font-family: 'Fauna One', serif;
     background-size: 100%;
 }
@@ -11,7 +11,7 @@ body{
     padding-top: 0px;
     margin-top: 60px;
     position: relative;
-    height: 100vh;
+    height: 94vh;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -19,6 +19,8 @@ body{
     background-position: center;
     display: flex;
     flex-direction: column;
+    font-family: "Courier New", Courier, monospace;
+
 }
 
 .blink {
@@ -69,6 +71,9 @@ body{
     width: 33%;
     object-fit: contain;
 }
+.space{
+    padding-top: 70px;
+}
 .imgg{
     height: 400px;
     width: 90%;
@@ -99,6 +104,7 @@ body{
     text-align: center;
     position:sticky;
     padding: 10px 0px;
+    
 }
 
 .footimages{
@@ -108,7 +114,7 @@ body{
     text-align: center;    
 }
 
-section, .sections{
+footer, section, .sections{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     padding: 20px;
@@ -116,11 +122,11 @@ section, .sections{
     
 }
 
-section:nth-child(odd) {
+footer:nth-child(odd) , section:nth-child(odd) {
     background-color: rgba(206,203,203,0.5);
     backdrop-filter: blur(18px);
 }
-section:nth-child(even){
+footer:nth-child(even), section:nth-child(even){
     background-color: rgba(206,203,203,0.5);
     backdrop-filter: blur(18px);
 
