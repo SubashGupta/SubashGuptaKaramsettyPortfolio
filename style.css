@@ -1,7 +1,7 @@
 
 body{
 
-    background-image: url('/images/bgpic1.jpeg');
+    background-image: url('/images/bgp.jpg');
     font-family: 'Fauna One', serif;
     background-size: 100%;
 }
@@ -20,6 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: "Courier New", Courier, monospace;
+    color: white;
 
 }
 
