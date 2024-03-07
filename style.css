@@ -37,7 +37,6 @@ body{
 }
 
 .navbar {
-
     font-style: italic;
     padding: 10px 0px;
     position: fixed;
@@ -120,6 +119,8 @@ footer, section, .sections{
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+    border-style: solid;
+    border-width: 0.3px;
     
 }
 

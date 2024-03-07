@@ -40,7 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (experienceLink) {
         experienceLink.addEventListener('click', navTo);
     }
-
+    
+    var experienceLink = document.querySelector('a[href="#awards1"]');
+    if (experienceLink) {
+        experienceLink.addEventListener('click', navTo);
+    }
     var experienceLink = document.querySelector('a[href="#contacts"]');
     if (experienceLink) {
         experienceLink.addEventListener('click', navTo);
