@@ -153,11 +153,33 @@ color: rgb(2, 17, 20)
     padding: 10px;
     font-size: 12px;
     }
+
     p{
         font-size: 10px;
     }
 
     .heads h1, h2 {
-        font-size: 16px !important; /* Adjust font size for smaller screens */
+        font-size: 25px !important; /* Adjust font size for smaller screens */
+    }
+
+    .sections h2,h4,h3,li{
+        font-size: 12px;
+    }
+    
+    .navleft{
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+    
+    .blink{
+        font-size: 10px;
+    }
+
+    .footStyle p{
+        font-size: 10px !important;
+    }
+
+    section h2{
+        font-size: 20px !important;
     }
   }
