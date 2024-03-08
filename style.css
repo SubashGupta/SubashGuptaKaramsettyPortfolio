@@ -69,16 +69,18 @@ body{
 }
 .mypic{
     width: 33%;
-    object-fit: contain;
+    text-align: center;
+    
 }
 .space{
     padding-top: 70px;
 }
 .imgg{
-    height: 400px;
-    width: 90%;
-    border-radius: 8px 8px;
-    object-fit: cover;
+    
+    height: auto;
+    max-width: 70%;
+    border-radius: 8px;
+    
 }
 .mystory
 {
@@ -146,3 +148,16 @@ footer:nth-child(even), section:nth-child(even){
 h4 a{
 color: rgb(2, 17, 20)
 }
+@media only screen and (max-width: 768px) {
+    .intro {
+    padding: 10px;
+    font-size: 12px;
+    }
+    p{
+        font-size: 10px;
+    }
+
+    .heads h1, h2 {
+        font-size: 16px !important; /* Adjust font size for smaller screens */
+    }
+  }
