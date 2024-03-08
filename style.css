@@ -64,7 +64,7 @@ body{
     text-decoration: none; /*This will remove the underline for the link in the a tags only for the navbar*/
 }
 .intro{
-    font-size: 20px;
+    font-size: 16px;
     text-align: justify;
 }
 .mypic{
@@ -155,15 +155,19 @@ color: rgb(2, 17, 20)
     }
 
     p{
-        font-size: 10px;
+        font-size: 8px;
     }
 
-    .heads h1, h2 {
-        font-size: 25px !important; /* Adjust font size for smaller screens */
+    .heads h1, 
+    .heads h2 {
+        font-size: 25px !important;
     }
 
-    .sections h2,h4,h3,li{
-        font-size: 12px;
+
+    .sections h3,
+    .sections h4,
+    .sections li{
+        font-size: 12px !important;
     }
     
     .navleft{
