@@ -68,24 +68,22 @@ body {
 }
 .mypic{
     width: 33%;
-    text-align: center;
-    
+    text-align: center;   
 }
-.space{
-    padding-top: 70px;
-}
+
 .imgg{
     
     height: auto;
     max-width: 70%;
-    border-radius: 8px;
-    
+    border-radius: 8px; 
 }
+
 .mystory
 {
     width: 66%;
     padding-left: 20px;
 }
+
 .myContainer{
     display: flex;
     position: relative;
@@ -146,6 +144,10 @@ footer:nth-child(even), section:nth-child(even){
 
 h4 a{
 color: rgb(2, 17, 20)
+}
+
+li{
+    padding-bottom: 10px;
 }
 @media only screen and (max-width: 768px) {
     .intro {

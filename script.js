@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     function scrollings(idvalue) {
         const element = document.getElementById(idvalue);
-        if (idvalue === "projects") {
+        if (idvalue === "projects" || idvalue === "experience") {
             element.scrollIntoView({
                 behavior: "smooth",
                 block: "start",
