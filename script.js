@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
     function navTo(event) {
         event.preventDefault();
         const targetId = event.target.getAttribute("href").substring(1);
-        history.pushState({}, null, '#' + targetId);
         scrollings(targetId);
     }
 
