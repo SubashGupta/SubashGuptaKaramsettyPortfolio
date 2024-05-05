@@ -4,7 +4,9 @@ body {
     font-family: 'Fauna One', serif;
     background-size: 100%;
 }
-
+.word {
+    color: white;
+  }
 .heads{
     border-top-width: 10px;
     padding-top: 0px;
@@ -34,6 +36,22 @@ body {
         opacity: 0;
     }
 }
+
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background-color: white; /* Color of the cursor */
+    animation: blink-animation 1s infinite step-start;
+  }
+  
+  @keyframes blink-animation {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  
 
 .navbar {
     font-style: italic;
